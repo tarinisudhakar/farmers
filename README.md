@@ -2,7 +2,7 @@
 ## About the project
 Seed choice for farmers is a complex decision. This involves understanding what kind of seeds are available to farmers (for instance, genetically modified seeds), what technology is best suited to them based on their geography and cultivation practices, and what are the regulatory challenges they might face. 
 
-To collection information on these parameters, I have created the backend of a survey to be hosted on the WhatsApp API. India has 390.1 million monthly active users on WhatsApp. While WhatsApp penetration is greater in urban India, WhatsApp users in rural areas are increasing at a rapid pace. In this context, a WhatsApp survey to understand challenges faced by farmers will ensure a large-scale response. I initially built this in response to a J-PAL call for developers on a similar project.  
+To collect information on these parameters, I have created the backend of a survey to be hosted on the WhatsApp API. India has 390.1 million monthly active users on WhatsApp. While WhatsApp penetration is greater in urban India, WhatsApp users in rural areas are increasing at a rapid pace. In this context, a WhatsApp survey to understand challenges faced by farmers will ensure a large-scale response. I initially built this in response to a Abdul Latif Jameel Poverty Action Lab (J-PAL) call for developers on a similar project.  
 
 ## How to run the code
 The code has five parts to it. These are constants.py, utils.py, exception_handler.py, logger_util.py, and driver.py. 
@@ -31,7 +31,7 @@ This program runs in three sections:
     *"User 123456 successfully submitted seed choices."*
 
 ## Next steps
-This is only a sample of what the backend could look like. I would like to host it on the WhatsApp API and play with the user interface.
+I am looking to add csv submission to the information end points so that users can actually submit their responses. I will also work on a login window that allows users to enter their details and calls the login endpoint at the backend.   
 
 #### *About me*
 I am a policy researcher based in New Delhi, India. You may reach out to me at sudhakar.tarini@gmail.com.  
